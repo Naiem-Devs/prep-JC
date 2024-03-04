@@ -1,0 +1,222 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container.lg {
+        max-width: 590px;
+    }
+    
+    .hero-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero_text {
+        width: 100%;
+        text-align: center;
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+    .service-area {
+        margin: auto;
+    }
+    
+    .hero_text h1 {
+        font-size: 30px;
+    }
+    
+    .footer_nev ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+
+
+    
+/*============ Disability_page Start =============*/
+.rate__content {
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+.plane__blk {
+    margin-bottom: 60px;
+}
+/*============ Disability_page End =============*/
+
+
+    
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .help_blk > a {
+        max-width: 125px;
+        font-size: 17px;
+    }
+    
+    .help_blk > a p {
+        font-size: 13px;
+    }
+    .hero-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero_text {
+        width: 100%;
+        text-align: center;
+        max-width: 320px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+.hero_text p {
+    font-size: 16px;
+    color: #475467;
+}
+
+.hero_img {
+    max-width: 250px;
+    margin: auto;
+}
+    
+    .service-area {
+        margin: auto;
+    }
+    
+    .hero_text h1 {
+        font-size: 30px;
+    }
+    
+    .footer_nev ul {
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    .svc_blk {
+        max-width: 320px;
+        margin-inline: auto;
+    }
+    
+    .service_text p {
+        line-height: 1.3;
+    }
+    
+    .footer_text p:first-child {
+        top: 30px;
+    }
+    
+    .footer_text p {
+        position: absolute;
+    }
+    
+    .footer-area {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    .footer_text p:last-child {
+        bottom: 25px;
+    }
+    .svc_blk h4 {
+        font-size: 22px;
+    }
+    .Need_content {
+        flex-direction: column-reverse;
+        max-width: 300px;
+    }
+    
+    .Need_img {
+        padding: 20px;
+    }
+    
+    .Need_img i {
+        margin-bottom: 14px;
+    }
+    
+    
+    .Need_content ul {
+        padding: 20px;
+    }
+    
+    
+/*============ Disability_page Start =============*/
+.rate__content {
+    margin-inline: auto;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+.rate__option {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.rate__Op_Blk {
+    width: 100%;
+}
+
+.rate__img {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 31px;
+}
+
+.plane__blk {
+    margin-bottom: 60px;
+    max-width: 290px;
+    margin-inline: auto;
+}
+.rate__content .example-val {
+    font-size: 36px;
+}
+
+.amount b {
+    font-size: 11px;
+}
+.range__slider {
+    padding: 20px 0 0;
+}
+
+.plane__blk h1 {
+    font-size: 38px;
+}
+
+.plane__content h4 {
+    font-size: 18px;
+}
+
+.FAQ-area h4 {
+    font-size: 20px;
+}
+
+.FAQ__content .accordion-button {
+    font-size: 15px;
+}
+
+.FAQ-area {
+    padding: 30px 0 30px;
+}
+/*============ Disability_page End =============*/
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
